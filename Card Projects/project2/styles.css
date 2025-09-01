@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.contaner{
+    width: 100vw;
+    height: 100vh;
+    background-color: bisque;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card{
+    height: 40rem;
+    width: 27rem;
+    border-radius: 1.3rem;
+    /* padding: 1rem; */
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.image img{
+    
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    
+}
+
+.content{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.content h2{
+    font-size: 1.9rem;
+}
+
+.content p{
+    font-size: 1.2rem;
+}
+.box{
+    height:3.4rem ;
+    width: 90%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color:rgba(140, 201, 201, 0.573);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.box img{
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 0.8rem;
+    
+
+}
+
+.box h3{
+    
+    font-size: 1.4rem;
+    display: block;
+}
+
+.box a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.button{
+    height:3.4rem ;
+    width: 90%;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(51, 47, 131);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    font-size: 1.8rem;
+    color: azure;
+    border-style: none;
+    background-color: rgb(51, 47, 131);
+}
+
+.issu{
+    height:3.4rem ;
+    width: 100%;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.issu a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width:330px) {
+    .box{
+        flex-direction: column;
+        height: 11rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .card{
+        height: 45rem;
+    }
+}
