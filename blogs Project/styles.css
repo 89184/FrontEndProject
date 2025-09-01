@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maincontaner{
+    width: 100%;
+    height: 100%;
+    
+}
+.blogmaincontent{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogheader{
+    width: 100%;
+    height: 12rem;
+    padding-left: 4.5rem;
+    padding-right: 4.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.blogcard{
+    height: 67%;
+    width: 70%;
+    padding: 2rem;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    /* grid-template-areas: 
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8"; */
+    row-gap: 3rem;
+    column-gap: 0rem;
+}
+
+
+.blogheader h1{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.blogheader p{
+    font-size: 2rem;
+}
+
+.cards{
+    height: 24rem;
+    width: 18rem;
+    padding-bottom: 1rem;
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.data{
+    height: 12rem;
+    width: 18rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.cards img{
+    height: 12rem;
+    width: 18rem;
+}
+
+.cards h3{
+
+    font-size: 1.5rem;
+}
+
+.cards p{
+    font-size: 1.2rem;
+}
+
+.smallbox{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.smallbox img{
+    height: 2.3rem;
+    width: 2.3rem;
+    border-radius: 1rem;
+    
+}
+
+.smallbox a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.smallbox p{
+    font-size: 1rem;
+}
+
+.smallbox button{
+    background-color: azure;
+    font-size: 1.2rem;
+    border: none;
+    padding-left: 2rem;
+}
+
